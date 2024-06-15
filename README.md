@@ -1,5 +1,5 @@
 # WTA
-Heuristic approach to weapon target assignment problem
+Solving the Weapon Target Assignment Problem Using Genetic Algorithms
 
 ### Adaptation of Genetic Algorithm to the Target-Weapon Assignment Problem
 
