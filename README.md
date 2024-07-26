@@ -1,7 +1,5 @@
 # WTA
-Solving the Weapon Target Assignment Problem Using Genetic Algorithms
-
-### Adaptation of Genetic Algorithm to the Target-Weapon Assignment Problem
+### A New Optimization Model for Solving Weapon-Target Assignment Problems
 
 #### Chromosome Structure
 In our designed chromosome structure, the first gene of the chromosome represents the first target. For example, a value of 4 in the first gene indicates that the fourth weapon is assigned to the first target. Sequentially, the first, second, third, and fourth targets are assigned the fourth, first, third, and second weapons, respectively. In the chromosome below, "W" stands for weapon and "T" stands for target.
