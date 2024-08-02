@@ -9,7 +9,6 @@ root.geometry("300x200")  # GenişlikxYükseklik
 root.title("Hedef Silah Eşleme")
 root.configure(bg="#d1d1d1")
 root.resizable(False, False)
-root.iconbitmap("missile-icon.ico")
 window_width = root.winfo_reqwidth()
 window_height = root.winfo_reqheight()
 
@@ -33,7 +32,6 @@ def Fire():
     new_window2 = tk.Toplevel(root)
     new_window2.title("Hedef Silah Eşleme Sonuç")
     new_window2.geometry("500x500")
-    new_window2.iconbitmap("missile-icon.ico")
     new_window2.configure(bg="#d1d1d1")
 
     scrollbar = tk.Scrollbar(new_window2)
@@ -57,7 +55,6 @@ def Fire():
     new_window = tk.Toplevel(root)
     new_window.title("Operatörlerin Optimum Değerleri")
     new_window.geometry("500x150")
-    new_window.iconbitmap("missile-icon.ico")
     new_window.resizable(False, False)
     new_window2.configure(bg="#d1d1d1")
 
